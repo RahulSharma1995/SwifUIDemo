@@ -128,9 +128,9 @@
 		B8F91D53281E3C6900274F60 /* SwifUIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B8D7C0B6281EA37700F743ED /* Models */,
 				B8D7C0BE281F2E8A00F743ED /* ViewModels */,
 				B8D7C0B9281EA3D600F743ED /* Views */,
-				B8D7C0B6281EA37700F743ED /* Models */,
 				B8F91D54281E3C6900274F60 /* SwifUIDemoApp.swift */,
 				B8F91D58281E3C6C00274F60 /* Assets.xcassets */,
 				B8F91D5A281E3C6C00274F60 /* Preview Content */,
