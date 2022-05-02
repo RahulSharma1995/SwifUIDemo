@@ -13,6 +13,7 @@
 		B8D7C0BD281EB02500F743ED /* AddNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D7C0BC281EB02500F743ED /* AddNew.swift */; };
 		B8D7C0C0281F2EA700F743ED /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D7C0BF281F2EA700F743ED /* ListViewModel.swift */; };
 		B8D7C0C2281FA00E00F743ED /* EmptyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D7C0C1281FA00E00F743ED /* EmptyListView.swift */; };
+		B8D7C0C5281FC63400F743ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8D7C0C4281FC63400F743ED /* LaunchScreen.storyboard */; };
 		B8F91D55281E3C6900274F60 /* SwifUIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F91D54281E3C6900274F60 /* SwifUIDemoApp.swift */; };
 		B8F91D59281E3C6C00274F60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8F91D58281E3C6C00274F60 /* Assets.xcassets */; };
 		B8F91D5C281E3C6C00274F60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8F91D5B281E3C6C00274F60 /* Preview Assets.xcassets */; };
@@ -45,6 +46,8 @@
 		B8D7C0BC281EB02500F743ED /* AddNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNew.swift; sourceTree = "<group>"; };
 		B8D7C0BF281F2EA700F743ED /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		B8D7C0C1281FA00E00F743ED /* EmptyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyListView.swift; sourceTree = "<group>"; };
+		B8D7C0C3281FC5E100F743ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B8D7C0C4281FC63400F743ED /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8F91D51281E3C6900274F60 /* SwifUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwifUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8F91D54281E3C6900274F60 /* SwifUIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwifUIDemoApp.swift; sourceTree = "<group>"; };
 		B8F91D58281E3C6C00274F60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -96,6 +99,7 @@
 				B8D7C0BA281EA3FE00F743ED /* ListView.swift */,
 				B8D7C0BC281EB02500F743ED /* AddNew.swift */,
 				B8D7C0C1281FA00E00F743ED /* EmptyListView.swift */,
+				B8D7C0C4281FC63400F743ED /* LaunchScreen.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -131,6 +135,7 @@
 		B8F91D53281E3C6900274F60 /* SwifUIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B8D7C0C3281FC5E100F743ED /* Info.plist */,
 				B8D7C0B6281EA37700F743ED /* Models */,
 				B8D7C0BE281F2E8A00F743ED /* ViewModels */,
 				B8D7C0B9281EA3D600F743ED /* Views */,
@@ -270,6 +275,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8D7C0C5281FC63400F743ED /* LaunchScreen.storyboard in Resources */,
 				B8F91D5C281E3C6C00274F60 /* Preview Assets.xcassets in Resources */,
 				B8F91D59281E3C6C00274F60 /* Assets.xcassets in Resources */,
 			);
@@ -464,9 +470,11 @@
 				DEVELOPMENT_TEAM = U8KL639237;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwifUIDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Do Things";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -493,9 +501,11 @@
 				DEVELOPMENT_TEAM = U8KL639237;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwifUIDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Do Things";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
