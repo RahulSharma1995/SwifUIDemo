@@ -2,16 +2,20 @@
 //  SwifUIDemoApp.swift
 //  SwifUIDemo
 //
-//  Created by Headspire Technologies on 01/05/22.
+//  Created by Rahul Sharma on 01/05/22.
 //
 
 import SwiftUI
 
 @main
 struct SwifUIDemoApp: App {
+    @StateObject var listViewModel: ListViewModel = ListViewModel()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                ListView()
+            }
+            .environmentObject(listViewModel)
         }
     }
 }
